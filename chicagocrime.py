@@ -63,7 +63,6 @@ print('Gradient Boosting', accuracy_score(y_test,  y_predict6))
 
 #OUTPUT
 
-# Accuracy Score:
 # Logistic 0.7448591012947449
 # Random Forest 0.8347296268088348
 # Decision Tree 0.7928408225437928
