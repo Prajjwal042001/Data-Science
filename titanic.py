@@ -48,12 +48,12 @@ from sklearn.metrics import accuracy_score
 x_train, x_test, y_train, y_test=train_test_split(x, y, random_state=0, train_size=0.3)
 
 sc.fit(x_train,y_train)
-y_pred4=sc.predict(x_test)
-print('SVM',accuracy_score(y_test,y_pred4))
+y_pred1=sc.predict(x_test)
+print('SVM',accuracy_score(y_test,y_pred1))
 
 mnb.fit(x_train,y_train)
-y_pred=mnb.predict(x_test)
-print('MultinomialNB',accuracy_score(y_test,y_pred))
+y_pred2=mnb.predict(x_test)
+print('MultinomialNB',accuracy_score(y_test,y_pred2))
 
 #OUTPUT
 # SVM 0.6279863481228669
