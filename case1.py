@@ -58,6 +58,7 @@ mnb.fit(x_train, y_train)
 y_pred7=mnb.predict(x_test)
 print("Multiomial Naives bayes",accuracy_score(y_test, y_pred7))
 
+#OUTPUT
 Logistic regresion 0.9047619047619048
 svm 0.8857142857142857
 Decision tree 0.9428571428571428
